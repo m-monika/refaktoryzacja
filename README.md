@@ -23,7 +23,16 @@ Krok 4. Weryfikuję ile wyciągnełam z książki informacji porównując wyniko
 ## Lokalne uruchamianie
 
 W katalogu projektu:
+
 ```bash
 docker build -t refactoring-app .
 docker run -it --rm --name refactoring-app -v "$PWD":/usr/src/refactoring refactoring-app
+```
+
+### Composer
+
+W kontenerze:
+
+```bash
+./bin/composer install
 ```
