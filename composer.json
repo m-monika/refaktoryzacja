@@ -2,7 +2,8 @@
   "name": "m-monika/refaktoryzacja",
   "autoload": {
     "psr-4": {
-      "Refactoring\\": "src/"
+      "Refactoring\\": "src/",
+      "Refactoring\\Tests\\": "tests/"
     }
   },
   "authors": [
