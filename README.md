@@ -13,11 +13,15 @@ Do ćwiczeń wykorzystywane będą metody opisane w książce "Zostań ultrasamo
 
 Krok 1. Czytam rozdział z przykładami jak odbywa się refaktoryzacja.
 
-Krok 2. Następnego dnia (bądź później) przepisuję przykład z odpowiednim przełożeniem go na PHP z JavaScript
+Krok 2. Następnego dnia (bądź później) przepisuję przykład z odpowiednim przełożeniem go na PHP z JavaScript.
+Przykłady do refaktoryzacji będę tworzyć w osobnych katalogach. Każdy plik do refaktoryzacji będzie się nazywał Legacy.php.
+Adekwatnie do tego w tym zestawie powstanie do tej klasy test LegacyTest.
 
-Krok 3. Na branchu z przykładem nakładam modyfikacje które pamiętam jakie nałożył autor w książce bez zaglądania do niej.
+Krok 3. Tworzę nowy branch na którym przeprowadzam refaktoryzację bez zaglądania do książki.
 
-Krok 4. Weryfikuję ile wyciągnełam z książki informacji porównując wynikowy commit na branch z przekształceniami zrobionymi w książce.
+Krok 4. Weryfikuję ile wyciągnełam z książki informacji porównując wynikowy commit z przekształceniami zrobionymi w książce.
+
+Krok 5. Ponawiam krok 3 i 4 do momentu w którym czuję, że dany przykład już jest opanowany.
 
 
 ## Lokalne uruchamianie
